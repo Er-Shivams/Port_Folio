@@ -4,6 +4,7 @@
 body{
     background-image: linear-gradient(to left bottom ,#eacda3,#d6ae7b );
     background-attachment: fixed;
+    color: #354538;
 }
 a{
     text-decoration: none;
@@ -15,12 +16,12 @@ a:hover{
     text-decoration: none;
     color: #000;
 }
-.container{
+.app_container{
     padding-top: 50px;
 }
 
-.row{
-    height: 90vh;
+.app_row{
+    height: 86vh;
 }
 
 
@@ -41,7 +42,7 @@ a:hover{
     text-align: center;
 }
 
-.sidebar_avatar { 
+.sidebar_avatar {      
     /* height: 110px;
     width: 120px;
     margin-top: 50px;
@@ -55,7 +56,7 @@ a:hover{
 }
 
 .sidebar_icon{
-    height: 25px;
+     height: 35px; /* 25  */
     width: 25px;
 
 }
@@ -66,11 +67,11 @@ a:hover{
 }
 
 .sidebar_name>span{
-    color:greenyellow;
+    color:rgb(255, 50, 50);
 }
 .sidebar_item{
-    margin-bottom: 6px;
-    padding-top: 6px;
+    margin-bottom: 4px;
+    padding-top: 4px;
     height: 40px;
     font-size: 1.05rem;
     border-radius: 30px;
@@ -83,8 +84,8 @@ a:hover{
 }
 .sidebar_contact{
     background-color: #c9d3dd;
-    padding: 2px 0;
-    margin: 20px -20px;
+    padding: 4px;
+    margin: 30px -20px;
 }
 .sidebar_email{
     background-image: linear-gradient(to left bottom ,greenyellow,orange );
@@ -139,4 +140,103 @@ a:hover{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* About.js */
+.about{
+    padding: 20px;
+    margin: -35px;
+}
+
+.about_intro{
+    font-size: 1.1rem;
+    padding: 20px;
+    margin: 10px 0;
+}
+.about_container{
+    background-color: #dbdddf;
+    padding: 30px 20px;
+}
+.about_heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: #354358;
+    margin-left: 10px;
+}
+
+/* skill-card */
+.skill-card{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.skill-card_icon{
+    width: 40px;
+    height: 40px;
+}
+
+.skill-card-body{
+    margin-left: 15px;
+}
+.skill-card__content {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6e7e91;
+}
+
+/* resume */
+
+.resume {
+    padding-top: 20px;
+}
+
+.resume-card_heading,
+.reume-language_heading {
+    margin-left: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #354538;
+}
+
+.resume-card_body {
+    margin-top: 10px;
+}
+
+.resume-card_title {
+    font-weight: 700;
+}
+
+.resume-card_name {
+    font-size: 16px;
+}
+
+.resume-card_details {
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+/* bar */
+.bar {
+    width: 90%;
+    background-color: #f1f2f3;
+    border-radius: 20px;
+    margin-bottom: 12px;
+
+}
+
+.bar_icon {
+    width: 15px;
+    height: 15px;
+}
+
+.bar_wrapper {
+    background-image: linear-gradient(90deg, #00F260, #0575E6);
+    border-radius: 20px;
+    padding: 4px 14px;
+    color: #fff;
+    font-size: 0.9rem
 }
